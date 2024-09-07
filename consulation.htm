@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult a Doctor</title>
+    <link rel="stylesheet" href="consulation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consult a Doctor</h1>
+        <form id="consultationForm" class="consultation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message for the Doctor:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    </div>
+    <script src="consultation.js"></script>
+</body>
+</html>

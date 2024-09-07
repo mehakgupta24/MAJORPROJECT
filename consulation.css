@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #4facfe, #00f2fe);
+}
+
+.container {
+    width: 90%; /* adjusted width */
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px; /* adjusted padding */
+    border-radius: 20px; /* increased border radius */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3); /* increased box shadow */
+    background-image: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.consultation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    background-color: #f7f7f7; /* background color for labels */
+    padding: 8px 12px; /* padding for labels */
+    border-radius: 10px; /* rounded corners */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6b6b; /* updated button color */
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff4040; /* darker shade on hover */
+}
+
+.response-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
